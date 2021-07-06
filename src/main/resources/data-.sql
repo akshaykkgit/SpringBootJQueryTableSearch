@@ -1,0 +1,11 @@
+INSERT INTO employee(id,name, last_name, email, phone, active) values (1,'Gustavo','Ponce','test@test.com','1234567890',true);
+INSERT INTO employee(id,name, last_name, email, phone, active) values (2,'Bob','Marley','one@love.com','6483748590',false);
+INSERT INTO employee(id,name, last_name, email, phone, active) values (3,'David','Gilmour','high@hopes.com','7648909831',true);
+INSERT INTO employee(id,name, last_name, email, phone, active) values (4,'John','Lennon','standby@me.com','7689485620',true);
+INSERT INTO employee(id,name, last_name, email, phone, active) values (5,'Ozzy','Osbourne','children@grave.com','6483748590',false);
+INSERT INTO employee(id,name, last_name, email, phone, active) values (6,'Jimmy','Page','stairway@heaven.com','7648909831',true);
+INSERT INTO employee(id,name, last_name, email, phone, active) values (7,'Jimi','Hendrix','purple@haze.com','8754091236',false);
+INSERT INTO employee(id,name, last_name, email, phone, active) values (8,'Sex','Pistols','save@queen.com','6729098761',true);
+INSERT INTO employee(id,name, last_name, email, phone, active) values (9,'Jim','Morrison','riders@storm.com','8754091236',false);
+INSERT INTO employee(id,name, last_name, email, phone, active) values (10,'Richard','Blackmore','highway@star.com','8754091236',true);
+INSERT INTO employee(id,name, last_name, email, phone, active) values (11,'Jay','Kay','cosmic@girl.com','0926389871',true);
