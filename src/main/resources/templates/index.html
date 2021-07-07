@@ -13,12 +13,11 @@
 </head>
 
 <body>
+	
+	
+	<div id="tabledata">
 	<h1>Employees Table</h1>
 	<table id="employeesTable" class="display">
-      
-       <!-- Header Table -->
-       
-       
 
   <input type="text" placeholder="Enter ID" id ="search" name="search">
   <button onclick="searchByValue()" >Search here</button>
@@ -33,6 +32,7 @@
                 <th>Email</th>
                 <th>Phone</th>
                 <th>Active</th>
+                <th>EDIT/DELETE</th>
             </tr>
         </thead>
         <!-- Footer Table -->
@@ -44,9 +44,31 @@
                 <th>Email</th>
                 <th>Phone</th>
                 <th>Active</th>
+                <th>EDIT/DELETE</th>
             </tr>
         </tfoot>
     </table>
+    
+    </div>
+    
+    
+    <div id="editForm" class="container">
+		<h1>Edit Employee</h1>   
+		<form action="saveEmployee" method="post" name="employeeForm">
+		    <input type="hidden" id="id" name="id">
+			<label for="name">First name:</label>
+			<input type="text" id="name" name="name">
+			<label for="lastName">Last name:</label>
+			<input type="text" id="lastName" name="lastName"><br><br>
+			<label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" id="email" name="email"><br><br>
+			<label for="phone">Phone No:</label>&nbsp;
+			<input type="text" id="phone" name="phone">
+		</form>
+
+<button type="submit" form="form1" value="Submit" onclick="formSubmit()">Submit</button>
+    
+    </div>
     
 </body>
 </html>
