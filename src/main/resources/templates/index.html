@@ -10,19 +10,22 @@
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
 	<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
 	<script src="/js/datatable.js"></script>
+	<!--<link rel="stylesheet" href="/css/style.css">-->
+	<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
 </head>
+
 
 <body>
 	
 	
-	<div id="tabledata">
-	<h1>Employees Table</h1>
-	<table id="employeesTable" class="display">
+  <div id="tabledata" class="container">
+  <h1>Employees Table</h1>
+  <table id="employeesTable" class="employees">
 
-  <input type="text" placeholder="Enter ID" id ="search" name="search">
-  <button onclick="searchByValue()" >Search here</button>
-  <button onclick="clearAll()" >Clear All</button>
-  <button onclick="loadAll()" >LOAD All</button>
+	  <input type="text" placeholder="Enter ID" id ="search" name="search">
+	  <button onclick="searchByValue()" >Search here</button>
+	  <button onclick="clearAll()" >Clear All</button>
+	  <button onclick="loadAll2()" >LOAD All</button>
 
        <thead>
             <tr>
